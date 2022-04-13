@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>Contact Us</title>
+  </head>
+  <body>
+    <div class="mainWrapper">
+      <div class="headerWrapper">
+        <img id="logoLarge" src="/images/Logo-large.png" alt="camera logo" />
+        <h1 class="companyName">Memories Photography</h1>
+        <nav>
+          <a href="/index.html">Home</a>
+          <a href="/pages/portfolio.html">Portfolio</a>
+          <a href="/pages/about-me.html">About Me</a>
+          <a href="#">Get In Touch</a>
+        </nav>
+      </div>
+      <div class="wrapperBody">
+        <img
+          class="contactPhoto"
+          src="/images/cherryBlossomTree.jpg"
+          alt="lone cherry blossom tree"
+        />
+        <form>
+          <label for="fname">First Name:</label><br />
+          <input
+            type="text"
+            id="fname"
+            name="fname"
+            placeholder="Your first name"
+          /><br /><br />
+          <label for="lname">Last Name:</label><br />
+          <input
+            type="text"
+            id="lname"
+            name="lname"
+            placeholder="Your last name"
+          /><br /><br />
+          <label for="reason for contact">Reason for Contact:</label><br />
+          <select name="contactReason" id="contactReason">
+            <option value="session">Would like a session</option>
+            <option value="technical">Technical Difficulties</option></select
+          ><br /><br />
+          <label for="message">Message:</label>
+          <br />
+          <textarea name="message" id="message" cols="90" rows="10"></textarea
+          ><br /><br />
+          <label for="button"></label>
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
